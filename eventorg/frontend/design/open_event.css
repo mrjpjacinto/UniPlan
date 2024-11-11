@@ -1,0 +1,110 @@
+.top-bar {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(103, 143, 103);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    color: white;
+    border-bottom: solid;
+    border-color: yellow;
+    box-shadow: 0px 0px 10px black;
+    z-index: 2;
+}
+
+.loginsec {
+    display: flex;
+    column-gap: 30px;
+    position: fixed;
+    right: 20px;
+    top: 10px;
+    z-index: 2;
+}
+
+.y-events {
+    position: absolute;
+    top: 40px;
+}
+
+.event-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px; 
+    padding: 20px; 
+}
+
+.event-section {
+    width: 100%; 
+    margin-top: 30px;
+}
+
+.event-container ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+    
+ 
+}
+
+.event-container ul li {
+    background-color: rgb(103, 143, 103);
+    color: white;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.event-section h1 {
+    text-align: center;
+}
+
+.description {
+    display: none; /* Hide description by default */
+    padding-top: 10px; /* Space from the title */
+    margin-top: 10px; /* Additional space to avoid overlap */
+    background-color: rgba(255, 255, 255, 0.1); /* Optional background for contrast */
+    border-radius: 4px; /* Optional rounded corners */
+}
+
+.toggle-btn {
+    background-color: rgb(204, 219, 135);
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: 0.15s;
+    border-radius: 20px;
+    color: black;
+}
+
+.toggle-btn:hover {
+    opacity: 0.5;
+}
+
+.FB-button {
+    background-color: rgb(204, 219, 135);
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: 0.15s;
+    border-radius: 20px;
+    color: black;
+}
+
+.FB-button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.FB-button:hover {
+    opacity: 0.5;
+}
+
+.tbuttons {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+}
